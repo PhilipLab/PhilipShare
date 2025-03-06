@@ -1,0 +1,11 @@
+Analysis pipeline for 10_connectivity
+
+EVmaker_STEGAMRI: create EV files from behavioral data
+
+STEGAMRI_decode_runner: analyze & organize STEGA data and saves in excel. This is what gets sent to FSL
+ - STEGAMRI_decode_subject: analyze STEGA data (all runs 1 subject)
+
+
+compareRaters10 is used to generate Z-files for raters to analyze.
+
+legoAnalyze10: looks at Lego (only) behavioral data)
